@@ -1,3 +1,68 @@
 body {
-  background-color: hsl(120, 35%, 72%);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(120, 35%, 82%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+h2 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* UI CONTAINER */
+.ui-container {
+  display: flex;
+  align-items: center;
+  width: 1240px;
+  height: 720px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  text-align: center;
+  overflow: hidden;
+}
+
+/* USER CONTACT SECTION */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  height: 150%;
+  width: 30%;
+}
+
+.contact,
+.socials {
+  background-color: hsl(0, 90%, 82%);
+  width: 100%;
+  color: #fff;
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  height: 60%;
+  margin-bottom: 30px;
+  align-items: end;
+}
+
+.contact-text {
+  position: relative;
+  margin: 0 30px 30px 30px;
+}
+.socials {
+  height: 30%;
+}
+
+.socials .contact-text {
+  margin-top: 30px;
+}
+
+sov
