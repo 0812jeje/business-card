@@ -48,9 +48,10 @@ a {
 
 .contact {
   display: flex;
+  flex-direction: column;
   height: 60%;
   margin-bottom: 30px;
-  align-items: end;
+  justify-content: end;
 }
 
 .contact-text {
@@ -63,4 +64,12 @@ a {
 
 .socials .contact-text {
   margin-top: 30px;
+}
+
+.fa-brands {
+  margin-right: 20px;
+}
+
+.fa-solid {
+  margin-right: 5px;
 }
