@@ -73,3 +73,18 @@ a {
 .fa-solid {
   margin-right: 5px;
 }
+
+/* IMAGE SECTION*/
+
+.image {
+  position: relative;
+  left: -100px;
+  top: -30px;
+  object-fit: cover;
+}
+
+@media (max-width: 973px) {
+  .image {
+    display: none;
+  }
+}
