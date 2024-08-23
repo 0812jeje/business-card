@@ -6,9 +6,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: left;
+  font-size: 64px;
+  margin: 16px 0px;
 }
 
 h2 {
+  text-align: left;
   font-size: 16px;
   margin: 10px 0;
 }
@@ -16,13 +24,27 @@ a {
   text-decoration: none;
   color: white;
 }
+
+p,
+li {
+  text-align: left;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 16px;
+}
 /* UI CONTAINER */
 .ui-container {
   display: flex;
   align-items: center;
   width: 1240px;
   height: 720px;
-  background-color: #fff;
+  background-color: hsl(57, 100%, 95%);
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -42,7 +64,7 @@ a {
 .socials {
   background-color: hsl(0, 90%, 82%);
   width: 100%;
-  color: #fff;
+  color: hsl(57, 100%, 95%);
   text-align: left;
 }
 
@@ -83,8 +105,25 @@ a {
   object-fit: cover;
 }
 
-@media (max-width: 973px) {
+.info-section {
+  position: relative;
+  left: -64px;
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 300px;
+}
+
+.first-name {
+  color: hsl(0, 90%, 82%);
+}
+
+@media (max-width: 1000px) {
   .image {
     display: none;
+  }
+  .info-section {
+    left: 20px;
   }
 }
